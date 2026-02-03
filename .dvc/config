@@ -1,2 +1,7 @@
 [core]
     analytics = false
+    remote = aws-remote
+['remote "fuentelocal"']
+    url = /tmp/dvcstore
+['remote "aws-remote"']
+    url = s3://alvarorf-dvcstore
